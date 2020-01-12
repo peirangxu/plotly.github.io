@@ -60,6 +60,7 @@ function init(){
         
         // Initial bar plot
         data1 = plotlyData(otu_940)
+        console.log(data1)
         Plotly.newPlot("bar",data1);
         
         // Initial Bubble plot
